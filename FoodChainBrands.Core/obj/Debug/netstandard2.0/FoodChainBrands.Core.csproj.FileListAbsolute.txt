@@ -1,0 +1,17 @@
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.deps.json
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.dll
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.pdb
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.AssemblyInfoInputs.cache
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.AssemblyInfo.cs
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.dll
+D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.pdb
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.deps.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.dll
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\bin\Debug\netstandard2.0\FoodChainBrands.Core.pdb
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.csprojAssemblyReference.cache
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.AssemblyInfoInputs.cache
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.AssemblyInfo.cs
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.dll
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrands.Core\obj\Debug\netstandard2.0\FoodChainBrands.Core.pdb
