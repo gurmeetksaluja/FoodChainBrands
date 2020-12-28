@@ -9,6 +9,7 @@ namespace FoodChainBrands.Core
         public int Id { get; set; }
         public string FoodChainName { get; set; }
         public string FoodChainLogoURL { get; set; }
+        public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
         public int CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }

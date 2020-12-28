@@ -12,5 +12,6 @@ namespace FoodChainBrandsNetCore
         [Required]
         public string FoodChainName { get; set; }
         public string FoodChainLogoURL { get; set; }
+        public  string Description{ get; set; }
     }
 }

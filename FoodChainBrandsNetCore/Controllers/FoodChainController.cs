@@ -49,7 +49,7 @@ namespace FoodChainBrandsNetCore.Controllers
                 return BadRequest();
             }
 
-            return StatusCode(201, await _unitOfWork.FoodChain.AddAsync(new FoodChainBrands.Core.FoodChainBrands { FoodChainName = model.FoodChainName, FoodChainLogoURL = model.FoodChainLogoURL }));
+            return StatusCode(201, await _unitOfWork.FoodChain.AddAsync(new FoodChainBrands.Core.FoodChainBrands { FoodChainName = model.FoodChainName, FoodChainLogoURL = model.FoodChainLogoURL, Description = model.Description }));
             // return Ok(foodChainId);
         }
 
@@ -67,7 +67,7 @@ namespace FoodChainBrandsNetCore.Controllers
             {
                 foodChainEntity.FoodChainName = model.FoodChainName;
                 foodChainEntity.FoodChainLogoURL = model.FoodChainLogoURL;
-
+                foodChainEntity.Description = model.Description;
                 return Ok(await _unitOfWork.FoodChain.UpdateAsync(foodChainEntity, new { @Id = model.Id }));
             }
 
@@ -85,11 +85,13 @@ namespace FoodChainBrandsNetCore.Controllers
 
         [Route("Image")]
         [HttpPost, DisableRequestSizeLimit]
-        public async Task<IActionResult> Upload(IFormFile file)
+        public async Task<IActionResult> Upload()
         {
             var fileName = "";
+            var file = Request.Form.Files[0];
             if (file != null)
             {
+
                 string wwwRootPath = _webHostEnvironment.WebRootPath;
                 fileName = Path.GetFileNameWithoutExtension(file.FileName);
                 string extension = Path.GetExtension(file.FileName);
@@ -102,7 +104,7 @@ namespace FoodChainBrandsNetCore.Controllers
                     await file.CopyToAsync(stream);
                 }
             }
-            return Ok(fileName);
+            return Ok(new { fileName });
         }
     }
 }

@@ -134,3 +134,8 @@ D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\n
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\ref\FoodChainBrandsNetCore.dll
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\FoodChainBrandsNetCore.pdb
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\FoodChainBrandsNetCore.genruntimeconfig.cache
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201222.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201223.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201224.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201226.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201228.json
