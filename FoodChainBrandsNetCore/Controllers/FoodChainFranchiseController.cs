@@ -40,22 +40,48 @@ namespace FoodChainBrandsNetCore.Controllers
             return Ok(franchise);
         }
 
-        [Route("AddFoodChainFranchises")]
+        [Route("AddUpdateFoodChainFranchises")]
         [HttpPost]
-        public async Task<IActionResult> AddFoodChainFranchises(IEnumerable<FoodChainFranchiseModel> model)
+        public async Task<IActionResult> AddUpdateFoodChainFranchises(IEnumerable<FoodChainFranchiseModel> model)
         {
-            var franchises = model.Select(x => new FoodChainFranchises
+            if (model.Any())
             {
-                Address = x.Address,
-                City = x.City,
-                Country = x.Country,
-                FoodChainId = x.FoodChainId,
-                PinCode = x.PinCode,
-                State = x.State
-            }).ToList();
+                var franchisesForAdd = model.Where(x => x.Id == 0).ToList();
+                var franchiseForUpdate = model.Except(franchisesForAdd);
+                if (franchisesForAdd.Any())
+                {
+                    var franchises = franchisesForAdd.Select(x => new FoodChainFranchises
+                    {
+                        Address = x.Address,
+                        City = x.City,
+                        Country = x.Country,
+                        FoodChainId = x.FoodChainId,
+                        PinCode = x.PinCode,
+                        State = x.State
+                    }).ToList();
 
-            return StatusCode(201, await _unitOfWork.FoodChainFranchises.AddAsync(franchises));
-            // return Ok(foodChainId);
+                    return StatusCode(201, await _unitOfWork.FoodChainFranchises.AddAsync(franchises));
+                }
+                if (franchiseForUpdate.Any())
+                {
+                    foreach (var item in franchiseForUpdate)
+                    {
+                        var foodChainFranchiseEntity = await _unitOfWork.FoodChainFranchises.GetDataByIdAsync(new { @Id = item.Id });
+                        if (foodChainFranchiseEntity != null)
+                        {
+                            foodChainFranchiseEntity.Address = item.Address;
+                            foodChainFranchiseEntity.City = item.City;
+                            foodChainFranchiseEntity.Country = item.Country;
+                            foodChainFranchiseEntity.PinCode = item.PinCode;
+                            foodChainFranchiseEntity.State = item.State;
+
+                            await _unitOfWork.FoodChainFranchises.UpdateAsync(foodChainFranchiseEntity, new { @Id = item.Id });
+                        }
+                    }
+                    return Ok("Franchises Updated Successfully.");
+                }
+            }
+             return BadRequest();
         }
 
 
