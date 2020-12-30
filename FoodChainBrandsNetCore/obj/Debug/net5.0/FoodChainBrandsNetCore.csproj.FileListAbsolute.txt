@@ -69,7 +69,6 @@ D:\Projects\Assignment_POC\FoodChainBrands\FoodChainBrandsNetCore\bin\Debug\net5
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\appsettings.Development.json
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\appsettings.json
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Utilities\identity.postman_collection.json
-D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201221.json
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\FoodChainBrandsNetCore.exe
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\FoodChainBrandsNetCore.deps.json
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\FoodChainBrandsNetCore.runtimeconfig.json
@@ -134,8 +133,6 @@ D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\n
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\ref\FoodChainBrandsNetCore.dll
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\FoodChainBrandsNetCore.pdb
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\obj\Debug\net5.0\FoodChainBrandsNetCore.genruntimeconfig.cache
-D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201222.json
-D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201223.json
-D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201224.json
-D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201226.json
 D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201228.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201229.json
+D:\Projects\Assignment_POC\FoodChainBrandsNew\FoodChainBrandsNetCore\bin\Debug\net5.0\Logs\Logs\logs20201230.json
